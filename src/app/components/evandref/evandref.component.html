@@ -1,4 +1,14 @@
-<input
-[style.backgroundColor]='corBackground'
-(mouseenter) = "changeColor()"
->
+<div class="ecra d-flex flex-column ">
+
+    <div class="fundo">
+        <img id="imagem" src="assets/Images/hulu.jpg" #tv>   
+    </div>
+
+    <div class="butoes d-flex flex-column justify-content-around align-items-center">
+        <button id="netflix" #netflix (click)="canal(tv, netflix)"></button>
+        <button id="hbo" #hbo (click)="canal(tv, hbo)"></button>
+        <button id="yt" #yt (click)="canal(tv, yt)"></button>
+        <button id="hulu" #hulu (click)="canal(tv, hulu)"></button>
+    </div>
+
+</div>

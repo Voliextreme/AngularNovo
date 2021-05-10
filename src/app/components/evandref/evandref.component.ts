@@ -12,9 +12,8 @@ export class EvandrefComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  corBackground="";
-
-  changeColor(){
-    this.corBackground = this.corBackground == 'red' ? 'white':'red';
+  canal(tv, button){
+    tv.src="assets/Images/"+button.id+".jpg";
   }
+
 }

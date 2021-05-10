@@ -1,0 +1,75 @@
+.ecra{
+    padding: 0;
+    margin: 0;
+    height: calc(100vh - 56px);
+    width:  100vw;
+    background-image: url(../../../assets/Images/tv.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.fundo{
+    width: 34%;
+    aspect-ratio: 16/9;
+    margin-bottom: 9.5%;
+    margin-right: -8%;
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+
+#imagem{ 
+    width: 100%;
+    height: 100%;
+}
+
+.butoes{
+position: absolute;
+top: 12%;
+right: 5%;
+width: 15%;
+height: 60%;
+
+}
+
+.butoes button{
+    width: 40%;
+    aspect-ratio: 1/1;
+    background-color: transparent;
+    border: 0px solid transparent;
+    outline: none;
+    border-radius: 1vh; 
+}
+
+.butoes button:hover{
+    background-color: rgba(0, 0, 0, 0.192);   
+}
+
+#hulu{
+    background-image: url(../../../assets/Images/hululogo.png);
+    background-position: center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+#netflix{
+    background-image: url(../../../assets/Images/netflixlogo.png);
+    background-position: center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+#hbo{
+    background-image: url(../../../assets/Images/hbologo.png);
+    background-position: center;
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+#yt{
+    background-image: url(../../../assets/Images/ytlogo.png);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
