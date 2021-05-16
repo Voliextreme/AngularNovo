@@ -1,5 +1,58 @@
-.calculadora{
-    width: 100%;
-    height: calc(100% - 56px);
 
+@media screen and (max-width: 600px) {
+    div.example {
+      font-size: 30px;
+    }
+  }
+
+.calculadora{
+    padding: 0;
+    margin: 0;
+    height: calc(100vh - 56px);
+    width:  100vw;
+    background-image: url(../../../assets/Images/calculadora.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#giz{
+    position: fixed;
+    bottom: 5vh;
+    right: 10vh;
+    width: 10%;
+    height: auto;
+}
+
+.conta{
+    width: 100vw;
+    height: calc(100vh - 56px);
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding: 0;
+}
+
+input, p{
+    font-size: 10rem;
+    color: white;
+    margin: 0vh 2vw 0vh 2vw;
+    text-align: center;
+    border: none;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+    outline: none;
+    max-width: 10vw;
+    min-width: 10vw;
+    overflow: hidden;
+    font-family: chalky;
+}
+
+#equal{
+    border: none;
 }

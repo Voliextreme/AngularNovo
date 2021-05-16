@@ -15,9 +15,9 @@ export class CalculatorComponent implements OnInit {
 
   valor1 :number = 1;
   valor2 :number = 1;
-  sinal : string;
+  sinal : string = "+";
 
-  resultado ;
+  resultado = 0;
   calcula(){
     this.resultado = eval(this.valor1+ this.sinal +this.valor2);
   }

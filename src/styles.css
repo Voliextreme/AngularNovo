@@ -4,3 +4,7 @@ body{
   flex-direction: column;
   align-items: center;
 }
+@font-face {
+  font-family: chalky;
+  src: url("../../AngularNovo/src/assets/fonts/chawp.regular.otf");
+}
