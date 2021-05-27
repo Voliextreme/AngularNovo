@@ -1,15 +1,9 @@
 
-@media screen and (max-width: 600px) {
-    div.example {
-      font-size: 30px;
-    }
-  }
-
 .calculadora{
     padding: 0;
     margin: 0;
     height: calc(100vh - 56px);
-    width:  100vw;
+    width: 100vw;
     background-image: url(../../../assets/Images/calculadora.png);
     background-position: center;
     background-size: cover;
@@ -30,7 +24,7 @@
 .conta{
     width: 100vw;
     height: calc(100vh - 56px);
-    display: flex;  
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -39,7 +33,7 @@
 }
 
 input, p{
-    font-size: 10rem;
+    font-size: 7rem;
     color: white;
     margin: 0vh 2vw 0vh 2vw;
     text-align: center;
@@ -47,8 +41,8 @@ input, p{
     border-bottom: 3px solid white;
     background-color: transparent;
     outline: none;
-    max-width: 10vw;
-    min-width: 10vw;
+    max-width: 12vw;
+    min-width: 12vw;
     overflow: hidden;
     font-family: chalky;
 }

@@ -22,7 +22,7 @@
 }
 
 .cv{
-    width: 75%;
+    width: 70%;
     aspect-ratio: 16/9;
     background-color: rgba(0, 128, 128, 0.10);
     border: 1px solid teal;
@@ -34,7 +34,6 @@ h1{
 }
 
 .split{
-    height: 100%;
     color:white;
     font-size: 1.2vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -42,13 +41,13 @@ h1{
 
 .info{
     margin-top: 10%;
-    margin-bottom: 18%;
+    margin-bottom: 10%;
 }
 
 .skillBox{
     box-sizing: border-box;
     width: 95%;
-    margin: 50px 0;
+    margin: 30px 0;
 }
 
 .skillBox p{

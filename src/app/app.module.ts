@@ -8,6 +8,13 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { CalculatorComponent } from './components/calculator/calculator.component';
 import { FormsModule } from '@angular/forms';
 import { EvandrefComponent } from './components/evandref/evandref.component';
+import { FourOFourComponent } from './components/four-ofour/four-ofour.component';
+import { ListaComprasComponent } from './components/lista-compras/lista-compras.component';
+import { AddComponent } from './components/lista-compras/add/add.component';
+import { BuyComponent } from './components/lista-compras/buy/buy.component';
+import { PColorComponent } from './components/p-color/p-color.component';
+import { FColorComponent } from './components/p-color/f-color/f-color.component';
+
 
 
 @NgModule({
@@ -17,6 +24,12 @@ import { EvandrefComponent } from './components/evandref/evandref.component';
     NavbarComponent,
     CalculatorComponent,
     EvandrefComponent,
+    FourOFourComponent,
+    ListaComprasComponent,
+    AddComponent,
+    BuyComponent,
+    PColorComponent,
+    FColorComponent
   ],
   imports: [
     BrowserModule,

@@ -22,7 +22,7 @@
     place-items: center;
 }
 
-#imagem{ 
+#imagem{
     width: 100%;
     height: 100%;
 }
@@ -42,11 +42,16 @@ height: 60%;
     background-color: transparent;
     border: 0px solid transparent;
     outline: none;
-    border-radius: 1vh; 
+    border-radius: 1vh;
+    transition: 0.3s;
 }
 
 .butoes button:hover{
-    background-color: rgba(0, 0, 0, 0.192);   
+    background-color: rgba(0, 0, 0, 0.192);
+    width: 42%;
+}
+.butoes button:active{
+  width: 38%;
 }
 
 #hulu{

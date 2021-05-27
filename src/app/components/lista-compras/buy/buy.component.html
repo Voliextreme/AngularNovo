@@ -1,0 +1,11 @@
+<router-outlet></router-outlet>
+
+<div class="lista">
+  <h1>PRODUTOS</h1>
+  <div class="produtos" *ngFor="let article of serviceList.shoppingList">
+    <p [ngClass]="{'comprados' : article.cart == true }">{{article.name}}</p>
+    <button (click)="buyArt(article)">Buy</button>
+  </div>
+</div>
+
+

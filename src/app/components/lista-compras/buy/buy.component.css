@@ -1,0 +1,42 @@
+.lista{
+  width: 100vw;
+  height: calc(100vh - 86px);
+  background-image: linear-gradient(teal, 80%, rgba(255, 255, 255, 0.192));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  color: white;
+}
+
+.produtos{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.produtos p{
+  margin-right: 5%;
+  text-align: center;
+  margin-bottom: 0;
+  color:white;
+}
+
+.produtos:nth-child(2n){
+  background-color: rgba(255, 255, 255, 0.21);
+}
+
+button{
+  outline: none;
+  border: 1px solid black;
+  box-shadow: 2px 2px black;
+}
+
+.comprados{
+  text-decoration: line-through;
+}
+
