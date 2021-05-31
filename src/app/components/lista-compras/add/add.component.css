@@ -6,7 +6,10 @@
   height: calc(100vh - 86px);
   justify-content: flex-end;
   align-self: center;
-  background-image: linear-gradient(teal, 80%, rgba(255, 255, 255, 0.192));
+  background-image: url(../../../../assets/Images/shop.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 .text{
 

@@ -18,6 +18,7 @@ import { AnimeComponent } from './components/anime/anime.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PiadaComponent } from './components/piada/piada.component';
 import { DetailsComponent } from './components/anime/details/details.component';
+import { CookiesComponent } from './components/cookies/cookies.component';
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import { DetailsComponent } from './components/anime/details/details.component';
     AnimeComponent,
     PiadaComponent,
     DetailsComponent,
+    CookiesComponent,
   ],
   imports: [
     BrowserModule,

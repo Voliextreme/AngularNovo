@@ -5,7 +5,7 @@
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
-  background-color: grey;
+  background-color: darkslategrey;
   color: white;
 }
 .choice{
@@ -24,9 +24,10 @@ button, input{
 }
 
 .lista{
-  width: 100%;
+  width: 90%;
   height: 75%;
   display: flex;
+  align-self: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }

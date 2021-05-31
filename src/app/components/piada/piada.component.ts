@@ -14,7 +14,11 @@ export class PiadaComponent implements OnInit {
   }
 
   piadas: any ;
-  getPiada(valoraPesquisar: string){
+  getRandomPiada(){
+    this.askPiada.getRandom().subscribe(data => {this.piadas = data});
+  }
+  
+  getPiadas(valoraPesquisar: string){
     this.askPiada.getPiada(valoraPesquisar).subscribe(data => {this.piadas = data});
   }
 

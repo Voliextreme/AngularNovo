@@ -15,7 +15,9 @@ export class DetailsComponent implements OnInit {
     this.route.params.subscribe(data => this.getAnime.getInfoId(data.id).subscribe(x => console.log(x)));
   }
 
-
+  titulo:string = "ola";
+  descricao:string = "olaola";
+  
   /* Routing */
 
 

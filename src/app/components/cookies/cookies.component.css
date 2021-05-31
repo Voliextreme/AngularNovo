@@ -1,0 +1,36 @@
+#cookies{
+    width: 50vw;
+    height: 10vh;
+    left: 25vw;
+    justify-self: end;
+    align-self: center;
+    position: fixed;
+    z-index: 100;
+    bottom: 7vh;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 128, 128, 0.50);
+    border: 1px solid teal;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px 4px;
+
+}
+#divcookies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button{
+    outline: none;
+    border: 1px solid black;
+    box-shadow: 2px 2px black;
+}
+button:first-child{
+    margin-right: 10%;
+}
+
