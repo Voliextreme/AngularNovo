@@ -14,7 +14,10 @@ import { AddComponent } from './components/lista-compras/add/add.component';
 import { BuyComponent } from './components/lista-compras/buy/buy.component';
 import { PColorComponent } from './components/p-color/p-color.component';
 import { FColorComponent } from './components/p-color/f-color/f-color.component';
-
+import { AnimeComponent } from './components/anime/anime.component';
+import { HttpClientModule } from '@angular/common/http';
+import { PiadaComponent } from './components/piada/piada.component';
+import { DetailsComponent } from './components/anime/details/details.component';
 
 
 @NgModule({
@@ -29,12 +32,16 @@ import { FColorComponent } from './components/p-color/f-color/f-color.component'
     AddComponent,
     BuyComponent,
     PColorComponent,
-    FColorComponent
+    FColorComponent,
+    AnimeComponent,
+    PiadaComponent,
+    DetailsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

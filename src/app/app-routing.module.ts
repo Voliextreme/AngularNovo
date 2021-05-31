@@ -9,6 +9,9 @@ import { BuyComponent } from './components/lista-compras/buy/buy.component';
 import { ListaComprasComponent } from './components/lista-compras/lista-compras.component';
 import { PColorComponent } from './components/p-color/p-color.component';
 import { FColorComponent } from './components/p-color/f-color/f-color.component';
+import { AnimeComponent } from './components/anime/anime.component';
+import { PiadaComponent } from './components/piada/piada.component';
+import { DetailsComponent } from './components/anime/details/details.component';
 
 const routes: Routes = [
   {path:"", component: HomeComponent},
@@ -24,8 +27,14 @@ const routes: Routes = [
   children: [
     {path:":color", component: FColorComponent},
   ]},
+  {path:"piada", component: PiadaComponent},
+  {path:"anime", component: AnimeComponent,
+  children: [
+    {path:":id", component: DetailsComponent},
+  ]},
+  /*
   {path:"notFound", component: FourOFourComponent},
-  {path:"**", redirectTo: "notFound"},
+  {path:"**", redirectTo: "notFound"},*/
 ];
 
 @NgModule({
