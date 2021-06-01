@@ -11,10 +11,10 @@ export class FColorComponent implements OnInit {
   constructor(private activeRoute: ActivatedRoute) {
   }
 
-  color: string = "";
+  rims: string = "";
   ngOnInit(): void {
     this.activeRoute.params.subscribe(
-      params => this.color = params.color
+      params => this.rims = params.rims
     );
   }
 

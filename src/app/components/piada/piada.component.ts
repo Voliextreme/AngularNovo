@@ -13,7 +13,7 @@ export class PiadaComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  piadas: any ;
+  piadas: any ="O que é que uma banana diz para a outra? Macacos me mordam!";
   getRandomPiada(){
     this.askPiada.getRandom().subscribe(data => {this.piadas = data});
   }

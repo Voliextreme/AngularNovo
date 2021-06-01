@@ -1,2 +1,14 @@
-<a [routerLink]="['/p-color', 'red']" routerLinkActive="router-link-active">hey</a>
+
+<div class="page"> 
 <router-outlet></router-outlet>
+    <div class="logo">
+        <img src="../../../../assets/Images/lambo.png">
+    </div>   
+    <div class="butoes">
+        <button id="rims1" #rims1 [routerLink]="['/p-color', 'rims1']">Classic</button>
+        <button id="rims2" #rims2 [routerLink]="['/p-color', 'rims2']">Boogie</button>
+        <button id="rims3" #rims3 [routerLink]="['/p-color', 'rims3']">Retro</button>
+        <button id="rims4" #rims4 [routerLink]="['/p-color', 'rims4']">Futuristic</button>
+    </div>
+    <img id="img" src='../../../../assets/Images/rims1.png'>
+</div>

@@ -9,7 +9,7 @@ export class GetPiadaService {
   constructor(private httpAsk : HttpClient) { }
 
 
-  link = "https://api.chucknorris.io/jokes/search";
+  link = "https://api.chucknorris.io/jokes/search?";
 
   getPiada(valoraPesquisar: string){
     return this.httpAsk.get(this.link, {
