@@ -1,10 +1,12 @@
 <div class="page">
   <h1>{{piadas}}</h1>
-    <button (click)="getRandomPiada()">Random Joke!</button>    
+    <button (click)="getRandomPiada()">Random Joke!</button>
       <div class="piadolas">
-      <input type="text" #valor placeholder="Escreva aqui uma categoria">
-      <button (click)="getPiadas(valor.value)">Search a Joke!</button>
-      <div *ngFor="let item of piadas.results">
+        <input type="text" #valor placeholder="Escreva aqui uma categoria">
+        <button (click)="getPiadas(valor.value)">Search a Joke!</button>
+      </div>
+    <div class="procurada">
+      <div *ngFor="let item of piadinha.result | slice:0:1">
         <h3>{{item.value}}</h3>
       </div>
     </div>

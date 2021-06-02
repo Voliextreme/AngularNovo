@@ -12,13 +12,15 @@ export class DetailsComponent implements OnInit {
   constructor(private route: ActivatedRoute, private getAnime: GetAnimeService) { }
 
   ngOnInit(): void {
-    this.route.params.subscribe(data => this.getAnime.getInfoId(data.id).subscribe(x => console.log(x)));
+    this.route.params.subscribe(data => this.getAnime.getInfoId(data.id).subscribe(x => this.result = x));
   }
 
-  titulo:string = "ola";
-  descricao:string = "olaola";
-  
-  /* Routing */
-
+  result : any = {
+    title: "",
+    synopsis: "",
+    episodes: "",
+    score: "",
+    image_url: "",
+  }
 
 }

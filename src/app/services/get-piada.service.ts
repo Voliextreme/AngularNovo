@@ -19,9 +19,10 @@ export class GetPiadaService {
 
   link2 = "https://api.chucknorris.io/jokes/random";
   getRandom(){
-    return this.httpAsk.get(this.link);
+    console.log(this.httpAsk.get(this.link2));
+    return this.httpAsk.get(this.link2);
   }
-  
+
 
 
 }

@@ -1,0 +1,9 @@
+
+#carro{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  bottom: -30%;
+  width: 60vw;
+  height: 65vh;
+}

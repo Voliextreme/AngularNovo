@@ -1,4 +1,6 @@
+import { Route } from '@angular/compiler/src/core';
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { GetAnimeService } from 'src/app/services/get-anime.service';
 
 @Component({
@@ -8,7 +10,10 @@ import { GetAnimeService } from 'src/app/services/get-anime.service';
 })
 export class AnimeComponent implements OnInit {
 
-  constructor(private animeService : GetAnimeService) { }
+  rt : Router;
+  constructor(private route: Router, private animeService : GetAnimeService) {
+    this.rt = route;
+  }
 
   ngOnInit(): void {
   }

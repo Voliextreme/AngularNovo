@@ -1,14 +1,12 @@
-
-<div class="page"> 
-<router-outlet></router-outlet>
+<div class="page">
     <div class="logo">
         <img src="../../../../assets/Images/lambo.png">
-    </div>   
-    <div class="butoes">
-        <button id="rims1" #rims1 [routerLink]="['/p-color', 'rims1']">Classic</button>
-        <button id="rims2" #rims2 [routerLink]="['/p-color', 'rims2']">Boogie</button>
-        <button id="rims3" #rims3 [routerLink]="['/p-color', 'rims3']">Retro</button>
-        <button id="rims4" #rims4 [routerLink]="['/p-color', 'rims4']">Futuristic</button>
     </div>
-    <img id="img" src='../../../../assets/Images/rims1.png'>
+    <div class="butoes">
+        <button id="rims1" [routerLink]="['/p-color', 'assets/Images/rims1.png']">Classic</button>
+        <button id="rims2" [routerLink]="['/p-color', 'assets/Images/rims2.png']">Boogie</button>
+        <button id="rims3" [routerLink]="['/p-color', 'assets/Images/rims3.png']">Retro</button>
+        <button id="rims4" [routerLink]="['/p-color', 'assets/Images/rims4.png']">Futuristic</button>
+    </div>
+    <router-outlet></router-outlet>
 </div>

@@ -14,12 +14,25 @@ export class PiadaComponent implements OnInit {
   }
 
   piadas: any ="O que é que uma banana diz para a outra? Macacos me mordam!";
+  resultado:any="";
   getRandomPiada(){
-    this.askPiada.getRandom().subscribe(data => {this.piadas = data});
+    //this.piada = this.chuckService.piadaDoServico;
+    this.askPiada.getRandom().subscribe(
+     data =>
+     {
+       this.resultado = data;
+       this.piadas = this.resultado.value;
+     }
+
+
+   );
   }
-  
+
+  piadinha:any="";
   getPiadas(valoraPesquisar: string){
-    this.askPiada.getPiada(valoraPesquisar).subscribe(data => {this.piadas = data});
+    this.askPiada.getPiada(valoraPesquisar).subscribe(data => {this.piadinha = data});
+
   }
+
 
 }

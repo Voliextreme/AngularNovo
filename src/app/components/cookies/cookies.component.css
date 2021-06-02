@@ -1,6 +1,6 @@
 #cookies{
     width: 50vw;
-    height: 10vh;
+    height: 15vh;
     left: 25vw;
     justify-self: end;
     align-self: center;
@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 button{

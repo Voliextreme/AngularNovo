@@ -1,6 +1,12 @@
-<div class="page">
-    <div class="info">
-        <h1>{{titulo}}</h1>
-        <p>{{descricao}}</p>
+<div class="board">
+    <h1>{{result.title}}</h1>
+    <div class="sny">
+    <h3>Synopsis:</h3>
+    <h6>{{result.synopsis}}</h6>
     </div>
+    <div class="board2">
+      <p><b>Episodes:</b> {{result.episodes}}</p>
+      <p><b>Score:</b> {{result.score}}</p>
+    </div>
+    <img [src]='result.image_url' alt="asd">
 </div>
