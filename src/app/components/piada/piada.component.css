@@ -8,6 +8,7 @@
     align-items: center;
     background-color: darkslategrey;
     color: white;
+    text-align: center;
   }
 
 .piadolas{
@@ -20,7 +21,6 @@
 .procurada{
   width: 80vw;
   height: 20vh;
-
 }
 
 

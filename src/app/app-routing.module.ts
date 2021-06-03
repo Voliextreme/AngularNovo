@@ -32,9 +32,8 @@ const routes: Routes = [
   children: [
     {path:":id", component: DetailsComponent},
   ]},
-  /*
   {path:"notFound", component: FourOFourComponent},
-  {path:"**", redirectTo: "notFound"},*/
+  {path:"**", redirectTo: "notFound"},
 ];
 
 @NgModule({
