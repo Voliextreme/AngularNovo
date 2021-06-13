@@ -25,7 +25,7 @@ const routes: Routes = [
   ]},
   {path:"p-color", component: PColorComponent,
   children: [
-    {path:":color", component: FColorComponent},
+    {path:":rims", component: FColorComponent},
   ]},
   {path:"piada", component: PiadaComponent},
   {path:"anime", component: AnimeComponent,

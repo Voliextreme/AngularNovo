@@ -14,8 +14,7 @@ export class FColorComponent implements OnInit {
   rims: string = "";
   ngOnInit(): void {
     this.activeRoute.params.subscribe(
-      params => {this.rims = params.color;
-        console.log(params)}
+      params => this.rims = params.rims
     )
 
   }
